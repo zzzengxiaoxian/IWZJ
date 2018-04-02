@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_verified"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        toolbar:titleTextColor="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="实名认证"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize20sp" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="提交"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize16sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_verified">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_10dp"
+                android:hint="@string/name" />
+
+            <EditText
+                android:id="@+id/identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_margin="@dimen/margin_10dp"
+                android:hint="@string/id" />
+
+            <LinearLayout
+                android:id="@+id/rea1111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/identity"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/IDpic"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/icon_add_id" />
+
+
+                <TextView
+                    android:id="@+id/tv_uplodver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/IDpic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:text="上传证件照"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/rea1111"
+                android:layout_marginTop="@dimen/margin_40dp"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:id="@+id/tvvvv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:text="为了保证您的资金安全，需要上传"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize20sp" />
+
+
+                <TextView
+                    android:id="@+id/tvvvv2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvvvv1"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:text="本人与身份证合照"
+                    android:textColor="@color/red3"
+                    android:textSize="@dimen/textsize20sp" />
+
+
+                <TextView
+                    android:id="@+id/tvvvv3"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvvvv2"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:text="此照片仅用于认证审核，请放心提供"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize20sp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

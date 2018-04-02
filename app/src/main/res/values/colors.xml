@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#eeeeee</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Customer COLOR-->
+    <color name="white">#EEEEEE</color>
+    <color name="white_half">#faf4f4</color>
+    <color name="white_all">#f7f7f7</color>
+    <color name="white_gray">#faf9f9</color>
+    <color name="gray">#cfcdcd</color>
+    <color name="gray2">#868484</color>
+    <color name="gray3">#dadada</color>
+    <color name="black">#212121</color>
+    <color name="black2">#403e3e</color>
+    <color name="black3">#ffeeeeee</color>
+    <color name="blue5">#00bcd4</color>
+    <color name="blue">#58B2DC</color>
+    <color name="blue0">#00a0b4</color>
+    <color name="green">#4abc54</color>
+    <color name="green2">#1B813E</color>
+    <color name="green3">#b7e9bb</color>
+    <color name="green4">#30d467</color>
+    <color name="purple">#B481BB</color>
+    <color name="red">#E83015</color>
+    <color name="red2">#D0104C</color>
+    <color name="red3">#d11111</color>
+    <color name="red4">#ffe95451</color>
+    <color name="pink">#E03C8A</color>
+    <color name="orange">#fda74a</color>
+    <color name="blue2">#69B0AC</color>
+    <color name="blue3">#0089A7</color>
+    <color name="blue4">#2EA9DF</color>
+    <color name="blueliang">#8cd4ea</color>
+    <color name="btn_bg_gray">#BDBAB5</color>
+    <color name="btn_bg_lightgray">#E4E4E4</color>
+    <color name="bg_light_gray">#F2F2F2</color>
+    <color name="red_base">#FB5B81</color>
+
+
+    <color name="peise1">#C2FCD9</color>
+    <color name="peise1_">#A0E4B0</color>
+    <color name="peise1__">#F8FBA2</color>
+    <color name="peise1___">#FA7F7F</color>
+
+    <color name="wuzi">#DAC9A6</color>
+    <color name="hutao">#947A6D</color>
+    <color name="toki">#EEA9A9</color>
+    <color name="chibaixiang">#E1A679</color>
+    <color name="TONOKO">#D7B98E</color>
+    <color name="baicha">#BC9F77</color>
+
+
+
+    <!--TOOLBAR COLOR-->
+    <color name="main_action_bar_background">#eeeeee</color>
+    <color name="action_bar_background">#080808</color>
+
+</resources>

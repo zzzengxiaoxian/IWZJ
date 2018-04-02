@@ -1,0 +1,313 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--L1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/this100dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_healthy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_green">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/healthly"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/healthypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_health" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_family"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_purple">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/family"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/familypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_family" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--L1-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/this100dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_red">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/active"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/healthypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_central" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_company"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_pink">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/company"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/familypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_mall" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/this100dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_service"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_blue"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/service"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/healthypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_service" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_news"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_orange">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/news"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/familypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_news" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/this100dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_music"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_blue2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/music"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/healthypic"
+                android:src="@mipmap/home_icon_audio" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_seek"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_blue3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:paddingTop="@dimen/margin_20dp"
+                android:text="@string/seek"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/familypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_brand" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/this100dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/linear_travle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_green">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:text="@string/travle"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/healthypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/icon_travel" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/home_icon_coming_soon" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/linear_love"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners_red">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_10dp"
+                android:text="@string/love"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/familypic"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@mipmap/home_icon_volunteer" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/home_icon_coming_soon" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

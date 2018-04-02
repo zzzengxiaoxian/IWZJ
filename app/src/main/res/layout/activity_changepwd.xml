@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_changepwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/toolbar_changerpwd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+
+        <TextView
+            android:id="@+id/tv_donechange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/tv_complete"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <!-- old password  -->
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_changepwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_oldpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_inputpass"
+            android:inputType="textPassword"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear1"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/linear1"
+        android:src="@mipmap/ic_login_pwd" />
+
+
+    <!--new pwd-->
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_newpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_input6pwd"
+            android:inputType="textPassword"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear2"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/linear2"
+        android:src="@mipmap/ic_login_pwd" />
+
+    <!--confim pwd-->
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_confirmpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_inputpwd"
+            android:inputType="textPassword"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear3"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/linear3"
+        android:src="@mipmap/ic_login_pwd" />
+
+</RelativeLayout>

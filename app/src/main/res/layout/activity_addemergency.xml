@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_addlxr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tv_jjlxr"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+
+        <TextView
+            android:id="@+id/tv_addlxr_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/tv_save"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp"
+            float:ignore="RtlHardcoded" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_addlxr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:padding="@dimen/margin_10dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@color/blue">
+
+
+        <EditText
+            android:id="@+id/edt_addname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_name"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/margin_10dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_addphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_tel"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/margin_10dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_addreleation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_relation"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+</RelativeLayout>

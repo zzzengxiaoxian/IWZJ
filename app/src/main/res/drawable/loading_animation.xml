@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected"
+    android:oneshot="false">
+    <!--duration 属性是指播发的速度，drawable 是对应的资源文件-->
+    <item
+        android:drawable="@drawable/loading_f1"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f2"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f9"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f10"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f11"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f12"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f13"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/loading_f14"
+        android:duration="50" />
+
+</animation-list>

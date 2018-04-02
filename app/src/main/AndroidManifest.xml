@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.iwzj.ltkj.iwzj">
+
+
+    <application
+        android:name=".ThisApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/ToolBarTheme"
+        tools:replace="android:icon,android:theme,android:name">
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+
+        </service>
+        <!-- Android定位SDK4.2及之后版本需要在Mainfest.xml正确设置Accesskey（AK），如果设置错误将会导致定位和地理围栏服务无法正常使用。
+设置AK，在Application标签中加入 VALUE值为AK -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="orWrBxh1euV3m4Kgdb3gVfReNX0at5mM" />
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name="activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="activity.AppintroActivity"></activity>
+        <activity android:name="activity.UserPersonalINFO"></activity>
+        <activity android:name="activity.PerCallName"></activity>
+        <activity android:name="activity.PerVerifiedName"></activity>
+        <activity android:name="activity.UserWallet" />
+        <activity android:name="activity.UserSmartCard" />
+        <activity android:name="activity.UserCalender" />
+        <activity android:name="activity.Feedback" />
+        <activity android:name="activity.UserOrder" />
+        <activity android:name="activity.UserSetting" />
+        <activity android:name="activity.AboutUs" />
+        <activity android:name="activity.AboutUsWeb" />
+        <activity android:name="activity.UserReading" />
+        <activity android:name="activity.CommonProblem" />
+        <activity android:name="activity.UserAgreement" />
+        <activity
+            android:name="activity.HomeNews"
+            android:theme="@style/MaterialtabstabsAppTheme"></activity>
+        <activity android:name="activity.HomeMusicPlay" />
+        <activity android:name="activity.HomeHealthy" />
+        <activity android:name="activity.HomeFamily" />
+        <activity android:name="activity.HomeActive"></activity>
+        <activity android:name="activity.HomeCompany" />
+        <activity
+            android:name="activity.CompanySearchTwo"
+            android:theme="@style/SearchviewAppTheme.Base"></activity>
+        <activity android:name="activity.CompanyDrug" />
+        <activity android:name="activity.CompanyLifeUse" />
+        <activity android:name="activity.CompanyMachine" />
+        <activity android:name="activity.CompanyHealthFood" />
+        <activity android:name="activity.CompanyChoseService" />
+        <activity android:name="activity.HomeService" />
+        <activity android:name="activity.WebNews" />
+        <activity android:name="activity.AudioNews" />
+        <activity android:name="activity.AudioCrosstalk" />
+        <activity android:name="activity.AudioTalkShow" />
+        <activity android:name="activity.AudioMusic" />
+        <activity android:name="activity.AudioFiction" />
+        <activity android:name="activity.AudioRadioDrama" />
+        <activity android:name="activity.AudioEconomics" />
+        <activity android:name="activity.AudioTechnology" />
+        <activity android:name="activity.AudioLectureRoom" />
+        <activity android:name="activity.PerAddress" />
+        <activity android:name="activity.HomePlace" />
+        <activity android:name="activity.MallItemActivity" />
+        <activity android:name="activity.MallItemDetailActivity" />
+        <activity android:name="activity.HomeItemDtDAcitivty" />
+        <activity android:name="activity.DtdDetailActivity" />
+        <activity android:name="activity.DtdServiceLocalhostMap" />
+        <activity android:name="activity.HomeItemActive" />
+        <activity android:name="activity.ActivesDetail" />
+        <activity android:name="activity.HomeCare" />
+        <activity android:name="activity.LoginActivity" />
+        <activity android:name="activity.RegisterActivity" />
+        <activity android:name="activity.ChangePwdActivity" />
+        <activity android:name="activity.AddAndUpdateContact" />
+        <activity android:name="activity.EmergencyContactActivity" />
+        <activity android:name="activity.PerAlreadyVerified" />
+        <activity android:name="activity.FamilyFoucsMe" />
+        <activity android:name="activity.HomeMyMessage" />
+        <activity android:name="activity.MsgActiveActivity" />
+        <activity android:name="activity.MsgHelperActivity" />
+        <activity android:name="activity.MsgTimeActivity" />
+        <activity android:name="activity.ShareMore" />
+
+
+
+        <!--SocialHelper 第三方分享登陆工具组件配置 开始 -->
+        <!--qq配置开始-->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="1105987677"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <!--qq配置结束-->
+
+        <!--微信配置开始-->
+        <activity
+            android:name="wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            />
+        <!--微信配置结束-->
+        <!--微博不需要-->
+        <!--SocialHelper 第三方分享登陆工具组件配置 结束-->
+
+    </application>
+
+
+    <!--网络权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--打电话权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+
+</manifest>

@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">IWZJ</string>
+    <string name="healthly">健康监测</string>
+    <string name="healthypic">这是健康监测按钮</string>
+    <string name="family">亲情关注</string>
+    <string name="familypic">这是亲情关怀按钮</string>
+    <string name="active">活动天地</string>
+    <string name="company">特惠商城</string>
+    <string name="service">上门服务</string>
+    <string name="news">新闻资讯</string>
+    <string name="music">音频娱乐</string>
+    <string name="seek">远程看护</string>
+    <string name="travle">旅游养生</string>
+    <string name="love">爱心志愿</string>
+    <string name="calltophone">打电话给12349服务中心</string>
+    <string name="introducephone">这是12349图片介绍</string>
+    <string name="phonenumber">0312-12349</string>
+    <string name="fwrx">24小时服务热线</string>
+    <string name="grzl">个人资料</string>
+    <string name="zhye">账户余额(元)</string>
+    <string name="szmx">收支明细</string>
+    <string name="zfmm">支付密码</string>
+    <string name="chongzhi">充 值</string>
+    <string name="name">姓名</string>
+    <string name="id">身份证</string>
+    <string name="wallet">我的钱包</string>
+    <string name="smartcard">智能卡</string>
+    <string name="calendar">我的日程</string>
+    <string name="order">我的订单</string>
+    <string name="setting">设置</string>
+    <string name="reading">用户必读</string>
+    <string name="appshare">分享app给好友</string>
+    <string name="thisiwzj">thisIWZJ</string>
+    <string name="thisxx">thisxx</string>
+    <string name="thisid">thisid</string>
+    <string name="mycalender">我的日程</string>
+    <string name="yjfk">意见反馈</string>
+    <string name="aboutus">关于我们</string>
+    <string name="cleancash">清楚本地缓存</string>
+    <string name="quite">退出当前账户</string>
+    <string name="feedback">意见反馈</string>
+    <string name="submit">提交</string>
+    <string name="kfdh">客服电话:</string>
+
+    <string name="allof">全部</string>
+    <string name="gzfwzx">关注服务中心</string>
+
+    <string name="startlocation">开始定位</string>
+    <string name="loactioning">请点击按钮定位或者选择相应位置</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="tv_homecare">远程看护</string>
+    <string name="tv_zhonglingcare">中龄监护</string>
+    <string name="tv_homecare1">爱在父母身边。守护幸福生活</string>
+    <string name="tv_zlhjcare">中龄慧家</string>
+    <string name="tv_homecare2">智慧养老，智能守护，尽在掌握</string>
+    <string name="tv_aboutus">关于我们</string>
+    <string name="tv_setversion">i吾之家 V1.1.1</string>
+    <string name="tv_officalsite">官方网站:</string>
+    <string name="tv_officaltel">客服电话:</string>
+    <string name="tv_workingtime">周一到周五 9:00-17:30</string>
+    <string name="tv_officalwebs">公司官网</string>
+    <string name="tv_activetype">活动类型：</string>
+    <string name="tv_cost">花费为：</string>
+    <string name="tv_people">人数为：</string>
+    <string name="tv_danci">您好，本活动为单次类型的活动，请于活动日期内按时到场参加活动</string>
+    <string name="tv_endtime">结束时间:</string>
+    <string name="tv_starttime">开始时间:</string>
+    <string name="tv_activitedetail">活动详情</string>
+    <string name="tv_save">保存</string>
+    <string name="tv_relation">关系</string>
+    <string name="tv_name">姓名</string>
+    <string name="tv_tel">手机号</string>
+    <string name="tv_jjlxr">添加紧急联系人</string>
+    <string name="tv_music">音频娱乐</string>
+    <string name="tv_medical">药品</string>
+    <string name="tv_complete">完成</string>
+    <string name="tv_choicecenter">选择服务中心</string>
+    <string name="toolbar_question">常见问题</string>
+    <string name="toolbar_changerpwd">修改登录密码</string>
+    <string name="hint_inputpwd">再次输入新密码</string>
+    <string name="hint_inputpass">请输入原密码</string>
+    <string name="tv_input6pwd">设置长度不少于6位的新密码</string>
+    <string name="tv_changenickname">修改称呼</string>
+    <string name="radiobutton_man">先生</string>
+    <string name="radiobutton_women">女士</string>
+    <string name="toolbar_music">音频娱乐</string>
+    <string name="tv_week">星期:</string>
+    <string name="tv_startdate">开始日期:</string>
+    <string name="tv_enddate">结束日期:</string>
+    <string name="tv_xhshuoming">您好，本活动为循环类型的活动，报名后，您可以在开始日期到结束日期之间，于每周固定星期固定时间段参加此活动。</string>
+    <string name="tv_healthyfood">健康食品</string>
+    <string name="tv_busines">商户详情</string>
+    <string name="tv_renzheng">认证</string>
+    <string name="tv_yirenzheng">营业执照已认证</string>
+    <string name="tv_busineseinfo">商户信息</string>
+    <string name="tv_busineslocal">商家位置</string>
+    <string name="tv_lxr">紧急联系人</string>
+    <string name="tv_lxrshuoming">当您发生意外并拨打12349求助时，我们会协助您与您的紧急联系人取得联系，请确保信息准确无误</string>
+    <string name="tv_considerme">关注我的人</string>
+    <string name="tv_newconsider">新的关注申请</string>
+    <string name="tv_homeactivelb">以下为此服务中心下的活动</string>
+    <string name="tv_companyshuoming">APP端暂时仅作产品展示，如有需要，请到服务中心购买</string>
+    <string name="tv_family">亲情关注</string>
+    <string name="tv_familygzw">关注我</string>
+    <string name="tv_jksj">健康数据</string>
+    <string name="tv_local">当前位置</string>
+    <string name="tv_rcap">日程安排</string>
+    <string name="tv_daichongzhi">代充值</string>
+    <string name="tv_healthyshebei">健康设备</string>
+    <string name="tv_healthyjc">健康监测</string>
+
+
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+        <item>ssss</item>
+        <item>s2s</item>
+        <item>s1s</item>
+        <item>s23s</item>
+    </string-array>
+</resources>

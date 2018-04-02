@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_all">
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="登录"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+
+        <TextView
+            android:id="@+id/tv_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="注册"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear2"
+        android:layout_toStartOf="@+id/linear2"
+        android:src="@mipmap/ic_login_phone" />
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@color/blue">
+
+
+        <EditText
+            android:id="@+id/edt_loginPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="手机号"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/linear3"
+        android:layout_gravity="center"
+        android:layout_toStartOf="@+id/linear3"
+        android:src="@mipmap/ic_login_pwd" />
+    <!-- password input -->
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:id="@+id/linear3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_centerHorizontal="true"
+        float:fletPaddingBottom="10dp"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:id="@+id/edt_Loginpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:textColorHint="#854836" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="登录"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/linear3"
+        android:layout_centerHorizontal="true" />
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="@dimen/margin_10dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@mipmap/ic_login_phone" />-->
+
+    <!--<com.wrapp.floatlabelededittext.FloatLabeledEditText-->
+    <!--android:layout_width="250dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="130dp"-->
+    <!--float:fletPaddingBottom="10dp"-->
+    <!--&gt;-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/edt_loginPhone"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="请输入手机号"-->
+    <!--android:textColorHint="#854836" />-->
+    <!--</com.wrapp.floatlabelededittext.FloatLabeledEditText>-->
+
+    <!--&lt;!&ndash;<com.wrapp.floatlabelededittext.FloatLabeledEditText&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;float:fletPaddingBottom="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/edt_loginPhone"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:hint="请输入手机号" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</com.wrapp.floatlabelededittext.FloatLabeledEditText>&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="@dimen/margin_10dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@mipmap/ic_login_pwd" />-->
+
+    <!--<com.wrapp.floatlabelededittext.FloatLabeledEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--<EditText-->
+    <!--android:id="@+id/edt_Loginpwd"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="请输入密码"-->
+    <!--android:inputType="textPassword" />-->
+    <!--</com.wrapp.floatlabelededittext.FloatLabeledEditText>-->
+    <!--</LinearLayout>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_login"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/colorAccent"-->
+    <!--android:text="登录" />-->
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_half"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolabrphone"
+        layout="@layout/phonefragment_toolbar" />
+
+    <ImageView
+        android:id="@+id/mimageView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/this140dp"
+        android:background="@color/white"
+        android:contentDescription="@string/introducephone" />
+
+
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:text="@string/phonenumber"
+        android:textColor="@color/green"
+        android:textSize="@dimen/textsize40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/fwrx"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize20sp" />
+
+
+    <include layout="@layout/ripple_layout" />
+
+
+</LinearLayout>

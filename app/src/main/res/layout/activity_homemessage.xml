@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_mymessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我的消息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tv_msg_helper"
+        style="@style/list_txt_Style"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:drawableLeft="@mipmap/action_push_helper"
+        android:text="i吾小帮手" />
+
+    <TextView
+        android:id="@+id/tv_msg_activity"
+        style="@style/list_txt_Style"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:drawableLeft="@mipmap/action_push_activity"
+        android:text="活动管家" />
+
+    <TextView
+        android:id="@+id/tv_msg_time"
+        style="@style/list_txt_Style"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:drawableLeft="@mipmap/action_push_time"
+        android:text="日程提醒" />
+
+</LinearLayout>
